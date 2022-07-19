@@ -18,7 +18,7 @@ title: Is 判断
 
 ## 语法
 
-```wxml
+```html
 is.isNumber(val)
 ```
 

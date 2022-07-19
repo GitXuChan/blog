@@ -31,7 +31,7 @@ Loreal UI 组件内部所有的**开放函数**均以 `linXXX` 的格式进行�
 }
 ```
 
-```wxml
+```html
 <!-- index.wxml -->
 
 <!-- 注意 id 属性 -->

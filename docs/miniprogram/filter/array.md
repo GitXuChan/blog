@@ -10,7 +10,7 @@ title: Array 数组
 
 ### 语法
 
-```wxml
+```html
 array.join(targetArray,spearator)
 ```
 
@@ -26,7 +26,7 @@ array.join(targetArray,spearator)
 
 ### 语法
 
-```wxml
+```html
 array.pop(targetArray)
 ```
 
@@ -47,7 +47,7 @@ array.pop(targetArray)
 
 ### 语法
 
-```wxml
+```html
 array.push(targetArray,element1[, ...[, elementN]])
 ```
 
@@ -63,7 +63,7 @@ array.push(targetArray,element1[, ...[, elementN]])
 
 ### 语法
 
-```wxml
+```html
 array.reverse(targetArray)
 ```
 
@@ -78,7 +78,7 @@ array.reverse(targetArray)
 
 ### 语法
 
-```wxml
+```html
 array.shift(targetArray)
 ```
 
@@ -97,7 +97,7 @@ array.shift(targetArray)
 
 ### 语法
 
-```wxml
+```html
 array.slice(targetArray[,beginSlice[, endSlice]])
 ```
 
@@ -114,7 +114,7 @@ array.slice(targetArray[,beginSlice[, endSlice]])
 
 ### 语法
 
-```wxml
+```html
 array.concat(targetArray[,value1[, value2[, ...[, valueN]]]])
 ```
 
@@ -130,7 +130,7 @@ array.concat(targetArray[,value1[, value2[, ...[, valueN]]]])
 
 ### 语法
 
-```wxml
+```html
 array.splice(targetArray,start[, deleteCount[, item1[, item2[, ...]]]])
 ```
 
@@ -148,7 +148,7 @@ array.splice(targetArray,start[, deleteCount[, item1[, item2[, ...]]]])
 
 ### 语法
 
-```wxml
+```html
 array.unshift(targetArray,element1[, ...[, elementN]])
 ```
 
@@ -162,7 +162,7 @@ array.unshift(targetArray,element1[, ...[, elementN]])
 
 ### 语法
 
-```wxml
+```html
 array.indexOf(targetArray)
 ```
 
@@ -181,7 +181,7 @@ array.indexOf(targetArray)
 
 ### 语法
 
-```wxml
+```html
 array.lastIndexOf(targetArray)
 ```
 

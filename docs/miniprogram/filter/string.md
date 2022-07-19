@@ -10,7 +10,7 @@ title: String 字符
 
 ### 语法
 
-```wxml
+```html
 string.toString(targetString)
 ```
 
@@ -25,7 +25,7 @@ string.toString(targetString)
 
 ### 语法
 
-```wxml
+```html
 string.valueOf(targetString)
 ```
 
@@ -40,7 +40,7 @@ string.valueOf(targetString)
 
 ### 语法
 
-```wxml
+```html
 string.charAt(targetString, index)
 ```
 
@@ -56,7 +56,7 @@ string.charAt(targetString, index)
 
 ### 语法
 
-```wxml
+```html
 string.indexOf(targetString,searchValue,fromIndex)
 ```
 
@@ -75,7 +75,7 @@ string.indexOf(targetString,searchValue,fromIndex)
 
 ### 语法
 
-```wxml
+```html
 string.lastIndexOf(targetString,searchValue,fromIndex)
 ```
 
@@ -96,7 +96,7 @@ string.lastIndexOf(targetString,searchValue,fromIndex)
 
 ### 语法
 
-```wxml
+```html
 string.slice(targetString,beginSlice,endSlice)
 ```
 
@@ -117,7 +117,7 @@ string.slice(targetString,beginSlice,endSlice)
 
 ### 语法
 
-```wxml
+```html
 string.split(targetString,[separator[, limit]])
 ```
 
@@ -139,7 +139,7 @@ string.split(targetString,[separator[, limit]])
 
 ### 语法
 
-```wxml
+```html
 string.substring(targetString,indexStart[, indexEnd])
 ```
 
@@ -164,7 +164,7 @@ string.substring(targetString,indexStart[, indexEnd])
 
 ### 语法
 
-```wxml
+```html
 string.toLowerCase(targetString)
 ```
 
@@ -179,7 +179,7 @@ string.toLowerCase(targetString)
 
 ### 语法
 
-```wxml
+```html
 string.toUpperCase(targetString)
 ```
 
@@ -194,7 +194,7 @@ string.toUpperCase(targetString)
 
 ### 语法
 
-```wxml
+```html
 string.trim(targetString)
 ```
 

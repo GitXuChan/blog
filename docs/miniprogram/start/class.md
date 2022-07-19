@@ -14,11 +14,11 @@ title: 外部样式类使用
 
 例如更改button组件的文本颜色：
 
-```wxml
+```html
 <l-button l-class="button">按钮</l-button>
 ```
 
-```wxss
+```css
 .button{
   color:#333 !important;
 }

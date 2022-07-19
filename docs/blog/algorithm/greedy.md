@@ -31,7 +31,7 @@
 为了了满⾜更多的⼩孩，就不要造成饼⼲尺⼨的浪费。⼤尺⼨的饼⼲既可以满⾜胃⼝⼤的孩⼦也可以满⾜胃⼝⼩的孩⼦，那么就应该优先满⾜胃⼝⼤的。
 这⾥的局部最优就是⼤饼⼲喂给胃⼝⼤的，充分利⽤饼⼲尺⼨喂饱⼀个，全局最优就是喂饱尽可能多的⼩孩。
 可以尝试使⽤贪⼼策略，先将饼⼲数组和⼩孩数组排序。然后从后向前遍历⼩孩数组，⽤⼤饼⼲优先满⾜胃⼝⼤的，并统计满⾜⼩孩数量。
-```c++
+```js
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -48,7 +48,7 @@ public:
 };
 ```
 
-```c++
+```js
 // 时间复杂度：O(nlogn)
 // 空间复杂度：O(1)
 class Solution {
@@ -78,7 +78,7 @@ public:
 的话）可能是正数或负数。少于两个元素的序列也是摆动序列。
 :::
 
-```c++
+```js
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {

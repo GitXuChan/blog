@@ -20,23 +20,23 @@ lin-ui支持在uni-app、mpvue、Taro等跨端框架中使用。
 ## 组件List常见问题
 
 1 、在使用List组件时，有时我们需要去掉List默认的右侧箭头，通过阅读文档找到配置项`is-link`，需要注意的是`is-link`的数据类型`Boolean`。通常会有错误写法如下:
-``` wxml
+```html
 <l-list icon="notification" title="铃声" is-link="false"/>
 ```
 正确写法:
-``` wxml
+```html
 <l-list icon="notification" title="铃声" is-link="{{false}}"/>
 ```
 原因:在小程序中如果写成`is-link="false"`，此时`false`数据类型并不是`Boolean`，而是`String`，这也是小程序中一个比较常见的问题。更加值得注意的是如果写成下面这种写法也是可以达到预期的效果。
-``` wxml
+```html
 <l-list icon="notification" title="铃声" is-link="{{xxx}}"/>
 ```
 or
-``` wxml
+```html
 <l-list icon="notification" title="铃声" is-link="{{0}}"/>
 ```
 但是如果`is-link="{{1}}"`等价于`is-link="{{true}}"`
-``` wxml
+```html
 <l-list icon="notification" title="铃声" is-link="{{1}}"/>
 ```
 
@@ -78,7 +78,7 @@ Add pages/index/index.less success!
 1 、在自定义的项目中修改`iconfont`的`content`属性。但是，如果自定义图标过多，那么造成冲突的概率就会大大提升，不建议这样解决冲突。
 
 2 、在项目中添加`iconfont`时，把`font-family`改成自定义的值，只要不是`iconfont`就可以。
-``` wxml
+```html
 <l-icon name="my-icon" l-class="icon-self"/>
 ```
 ``` wxss

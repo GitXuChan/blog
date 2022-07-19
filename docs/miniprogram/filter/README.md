@@ -18,7 +18,7 @@ title: 快速上手
 
 必须先引入，再使用。以使用 `String` 为例如下：
 
-```wxml
+```html
 <wxs src="../../../dist/filter/string.wxs" module="string"/>
 ```
 
@@ -32,7 +32,7 @@ title: 快速上手
 
 必须先引入，再使用。以使用 `String` 为例如下：
 
-```wxml
+```html
 var string = require("../../../dist/filter/string.wxs");
 ```
 

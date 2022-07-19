@@ -26,7 +26,7 @@ wx.lin 已废弃，将在未来的某个版本移除，如果对应组件有[开
 }
 ```
 
-```wxml
+```html
 <!-- index.wxml -->
 <l-loading />
 ```

@@ -33,10 +33,6 @@ module.exports = {
         {
             text: '博客',
             link: '/blog/underscore/'
-        },
-        {
-            text: '日记',
-            link: '/interview/'
         }
         ],
         sidebar: {
@@ -61,52 +57,6 @@ module.exports = {
                     children: [
                         '/openSource/animation/'
                     ]
-                },
-                {
-                    title: '矩阵',
-                    collapsable: false,
-                    children: [
-                        '/openSource/martie/'
-                    ]
-                },
-                {
-                    title: '台风',
-                    collapsable: false,
-                    children: [
-                        '/openSource/typhon/'
-                    ]
-                }
-            ],
-            '/interview/': [
-                {
-                    title: '工具函数',
-                    collapsable: true,
-                    children: [
-                        '/interview/function/subscribeMsg'
-                        , '/interview/function/px2rpx'
-                        , '/interview/function/promisic'
-                        , '/interview/function/currNowDay'
-                        , '/interview/function/fetch'
-                        , '/interview/function/filterArrayByKey'
-                        , '/interview/function/filterTaxNumber'
-                        , '/interview/function/imageLoadSuccess'
-                        , '/interview/function/videoCheck'
-                        , '/interview/function/formRule'
-                        , '/interview/function/destination'
-                        , '/interview/function/hotel'
-                        , '/interview/function/hotelExample'
-                        , '/interview/function/reverseAddress'
-                    ]
-                },
-                {
-                    title: '日记',
-                    collapsable: true,
-                    children: [
-                        '/interview/issues_1', 
-                        '/interview/issues_2', 
-                        '/interview/issues_3',
-                    
-                    ]
                 }
             ],
             '/blog/': [
@@ -117,39 +67,13 @@ module.exports = {
                         '/blog/performance/1',
                         '/blog/tabbar/',
                     ]
-                },
-                {
-                    title: '前端训练营',
-                    collapsable: true,
-                    children: [
-                        '/blog/algorithm/greedy',
-                        '/blog/JavaScript/1',
-                        '/blog/JavaScript/canvas',
-                        '/blog/JavaScript/git',
-                        '/blog/JavaScript/eventLoop'
-                    ]
-                },
-                {
-                    title: '算法训练营',
-                    collapsable: true,
-                    children: [
-                        '/blog/algorithm/greedy',
-                        '/blog/algorithm/dp'
-                    ]
-                },
-                {
-                    title: 'Java训练营',
-                    collapsable: true,
-                    children: [
-                        '/blog/java/throughout'
-                    ]
                 }
             ],
         },
         // sidebarDepth: 3,
         lastUpdated: "最后更新时间",
         // 假定 GitHub。也可以是一个完整的 GitLab 网址
-        repo: 'https://github.com/GitLuoSiyu',
+        repo: 'https://github.com/GitXuchan',
         // 如果你的文档不在仓库的根部
         docsDir: 'docs',
         // 可选，默认为 master
