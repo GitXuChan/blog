@@ -20,40 +20,93 @@ module.exports = {
         ]
     ],
     plugins: [['vuepress-plugin-code-copy', true]],
-    description: '程序员徐婵个人博客', //描述
+    description: '徐婵个人博客',
     themeConfig: {
         nav: [{
             text: '首页',
             link: '/'
         },
         {
-            text: '开源',
-            link: '/openSource/start/'
+            text: '低代码',
+            link: '/summarize/'
         },
         {
-            text: '博客',
+            text: '工具',
             link: '/blog/underscore/'
+        },
+        {
+            text: '开源',
+            link: '/openSource/start/'
         }
         ],
         sidebar: {
+            '/summarize/': [
+                {
+                    title: '闪搭的使用总结',
+                    collapsable: true,
+                    children: [
+                        '/summarize/lowcode/0',
+                        '/summarize/lowcode/1',
+                        '/summarize/lowcode/2',
+                        '/summarize/lowcode/3',
+                        '/summarize/lowcode/4',
+                        '/summarize/lowcode/5',
+                        '/summarize/lowcode/6',
+                        '/summarize/lowcode/7',
+                        '/summarize/lowcode/8',
+                        '/summarize/lowcode/9',
+                        '/summarize/lowcode/10',
+                        '/summarize/lowcode/11',
+                        '/summarize/lowcode/12',
+                        '/summarize/lowcode/13'
+                    ]
+                },
+                {
+                    title: '闪用的使用总结',
+                    collapsable: true,
+                    children: [
+                        '/summarize/lowcodeuse/1',
+                        '/summarize/lowcodeuse/2',
+                        '/summarize/lowcodeuse/3',
+                        '/summarize/lowcodeuse/4',
+                        '/summarize/lowcodeuse/5',
+                        '/summarize/lowcodeuse/6',
+                        '/summarize/lowcodeuse/7'
+                    ]
+                }
+                ,
+                {
+                    title: '闪联的使用总结',
+                    collapsable: true,
+                    children: [
+                        '/summarize/lowcodeserver/1',
+                        '/summarize/lowcodeserver/2',
+                        '/summarize/lowcodeserver/3',
+                        '/summarize/lowcodeserver/4',
+                        '/summarize/lowcodeserver/5',
+                        '/summarize/lowcodeserver/6',
+                        '/summarize/lowcodeserver/7'
+                    ]
+                }
+            ],
             '/openSource/': [
                 {
                     title: '代码人生',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         '/openSource/start/'
                     ]
                 },
                 {
                     title: '组件库',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         '/openSource/component/'
                     ]
                 },
                 {
                     title: '动画库',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         '/openSource/animation/'
                     ]

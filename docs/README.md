@@ -48,10 +48,10 @@
   与微信小程序一样，Lin UI 目前还处于不断完善的过程中，我们会关注微信官方的每一次更新，以及收集更多用户的反馈，致力于打造一个更好的小程序UI库！<br/>
 
 
-
+<!-- 
 <p class="action">
   <a href="/miniprogram/component/basic/button" class="action-button">快速开始 →</a>
-</p>
+</p> -->
 
 <style>
 
